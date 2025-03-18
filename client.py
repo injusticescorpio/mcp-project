@@ -16,7 +16,7 @@ model = ChatGroq(
         )
 server_params = StdioServerParameters(
     command="python",
-    args=["/Users/arjunts/Documents/GPT+LLM/2K25/documentation/docs_server.py"],
+    args=["./docs_server.py"],
 )
 
 
